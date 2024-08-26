@@ -1,0 +1,19 @@
+meta {
+  name: New Location Dos Hermanas
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/v1/locations
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Dos Hermanas",
+    "lat": 37.28287,
+    "lon": -5.92088
+  }
+}

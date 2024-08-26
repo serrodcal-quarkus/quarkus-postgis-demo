@@ -1,0 +1,19 @@
+meta {
+  name: New Location Madrid
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:8080/v1/locations
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Madrid",
+    "lat": 40.4165,
+    "lon": -3.70256
+  }
+}
